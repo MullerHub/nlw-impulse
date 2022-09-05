@@ -1,22 +1,5 @@
-interface ButtonProps {
-  text?: string
-}
+import { Widget } from "./components/Widget";
 
-function Button(props: ButtonProps) {
-  return (
-    <button className="bg-violet-500 px-4 h-10">
-      {props.text ?? 'Padrao'}
-    </button>
-  )
+export function App() {
+  return <Widget/>
 }
-function App() {
-  return (
-    <div>
-      <Button text="Enviar" />
-      <Button text="Cancelar" />
-      <Button />
-    </div>
-  )
-}
-
-export default App
