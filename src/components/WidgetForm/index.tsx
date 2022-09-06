@@ -43,7 +43,7 @@ export function WidgetForm() {
       {!feedbackType ? (
        <FeedbackTypeStep onFeedbackChanged={setFeedbackType} />
       ) : (
-         <FeedbackContentStep />
+         <FeedbackContentStep feedbackType={feedbackType} />
       )}
 
       <footer>
