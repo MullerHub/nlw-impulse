@@ -59,7 +59,6 @@ export function FeedbackContentStep({
           placeholder="Conte com detalhes o que está acontecendo..."
           onChange={event => setComment(event.target.value)}
         />
-
         <footer className="flex gap-2 mt-2">
           <ScreenshotButton
             screenshot={screenshot}
