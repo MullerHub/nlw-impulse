@@ -1,4 +1,5 @@
 import { ArrowLeft, Camera } from 'phosphor-react'
+import React from 'react'
 import { FormEvent, useState } from 'react'
 import { FeedBackType, feedbackTypes } from '..'
 import { CloseButton } from '../../CloseButton'
